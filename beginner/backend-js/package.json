@@ -5,7 +5,7 @@
   "author": "dcarpintero",
   "license": "MIT",
   "scripts": {
-    "start": "node lastblock.js"
+    "start": "node lastblocks.js"
   },
   "dependencies": {
     "@polkadot/api": "^2.2.1"
