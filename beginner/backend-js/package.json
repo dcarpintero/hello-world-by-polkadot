@@ -1,0 +1,13 @@
+{
+  "name": "backend-js",
+  "version": "0.1.0",
+  "main": "lastblock.js",
+  "author": "dcarpintero",
+  "license": "MIT",
+  "scripts": {
+    "start": "node lastblock.js"
+  },
+  "dependencies": {
+    "@polkadot/api": "^2.2.1"
+  }
+}
