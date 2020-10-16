@@ -1,0 +1,114 @@
+{
+  "registry": {
+    "strings": [
+      "storage",
+      "value",
+      "u32",
+      "Storage",
+      "new",
+      "initvalue",
+      "inc",
+      "by",
+      "get",
+      "incrementer"
+    ],
+    "types": [
+      {
+        "id": {
+          "custom.name": 1,
+          "custom.namespace": [],
+          "custom.params": []
+        },
+        "def": {
+          "struct.fields": []
+        }
+      },
+      {
+        "id": "u32",
+        "def": "builtin"
+      }
+    ]
+  },
+  "storage": {
+    "struct.type": 1,
+    "struct.fields": [
+      {
+        "name": 4,
+        "layout": {
+          "struct.type": 1,
+          "struct.fields": [
+            {
+              "name": 2,
+              "layout": {
+                "range.offset": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                "range.len": "1",
+                "range.elem_type": 2
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "contract": {
+    "name": 10,
+    "constructors": [
+      {
+        "name": 5,
+        "selector": "[\"0xE9\",\"0x81\",\"0x95\",\"0x39\"]",
+        "docs": [
+          "Constructor that initializes the `int32` value to the given `init_value`.\n\n"
+        ],
+        "args": [
+          {
+            "name": 6,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                3
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "messages": [
+      {
+        "name": 7,
+        "selector": "[\"0xDD\",\"0x5D\",\"0x52\",\"0x11\"]",
+        "docs": [
+          "This increments the value by `by`.\n\n"
+        ],
+        "mutates": true,
+        "args": [
+          {
+            "name": 8,
+            "type": {
+              "ty": 2,
+              "display_name": [
+                3
+              ]
+            }
+          }
+        ],
+        "return_type": null
+      },
+      {
+        "name": 9,
+        "selector": "[\"0x6D\",\"0x4C\",\"0xE6\",\"0x3C\"]",
+        "docs": [
+          "Simply returns the current value of our `uint32`.\n\n"
+        ],
+        "mutates": false,
+        "args": [],
+        "return_type": {
+          "ty": 2,
+          "display_name": [
+            3
+          ]
+        }
+      }
+    ],
+    "events": []
+  }
+}
