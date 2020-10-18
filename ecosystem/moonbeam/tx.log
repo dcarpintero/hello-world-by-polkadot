@@ -1,0 +1,9 @@
+- Deploy ERC20 Token TX: 0xdb15e1d3a0dae905f86aa731de694117ba47b9fa73b5b057a7894a26be500175
+- Deploy CheckContract TX: 0xf84fd887a37e45f6ae038987c04d66f3e86ac20f0b5d08c1b9f1ac31f90dfd8c
+- ERC20 Token Address: 0xF12b5dd4EAD5F743C6BaA640B0216200e89B60Da
+- Approve TX: 0x6d48887235cc61c74ee662f552eac80d1600c577ebaf97dab4e2033603d40177
+- Transfer TX: 0xa187cb8ad1edcd44a5629dd9709452341360dd623f923b83d411fa958fc261b1
+
+- address1: 0x627306090abaB3A6e1400e9345bC60c78a8BEf57 (the address of account01)
+- address2: 0xf17f52151EbEF6C7334FAD080c5704D77216b732 (the address of account02)
+- addressToken: 0xFB88dE099e13c3ED21F80a7a1E49f8CAEcF10df6 (the address of the deployed ERC20 token contract)
