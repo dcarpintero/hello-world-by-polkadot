@@ -2,7 +2,7 @@
 
 ## phala-network
 <p align="center">
-  <img src="img/phala-network.png">
+  <img src="img/phala-node.png">
 </p>
 
 ## phost
