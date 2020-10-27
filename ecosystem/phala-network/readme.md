@@ -7,12 +7,12 @@
 
 ## phost
 <p align="center">
-  <img src="img/phost.png">
+  <img src="img/phala-phost.png">
 </p>
 
 ## pruntime
 <p align="center">
-  <img src="img/pruntime.png">
+  <img src="img/phala-pruntime.png">
 </p>
 
 ## secret-token
