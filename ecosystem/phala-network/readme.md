@@ -19,5 +19,5 @@
 
 ## secret-token
 <p align="center">
-  <img src="img/secret-token.png">
+  <img src="img/secret-token-dcm.png">
 </p>
