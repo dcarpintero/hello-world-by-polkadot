@@ -21,8 +21,3 @@
 <p align="center">
   <img src="img/secret-token.png">
 </p>
-
-## twitter
-<p align="center">
-  <img src="img/twitter.png">
-</p>
