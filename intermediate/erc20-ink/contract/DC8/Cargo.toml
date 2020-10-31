@@ -1,5 +1,5 @@
 [package]
-name = "DC8"
+name = "dc8"
 version = "0.1.0"
 authors = ["dcarpintero"]
 edition = "2018"
