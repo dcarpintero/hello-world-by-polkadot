@@ -10,5 +10,4 @@ Cargo.lock
 
 node_modules
 rustup-toolchain
-.DS_Store
 package-lock.json
