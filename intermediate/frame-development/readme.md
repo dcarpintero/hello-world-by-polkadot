@@ -1,12 +1,12 @@
 ## FRAME Development
 
-# Dispatchable Call (storeChallenge):
+# Dispatchable Call for customized struct (storeChallenge):
 
 <p align="center">
   <img src="storeChallenge.png">
 </p>
 
-# Query Struct:Data
+# Query StructData
 
 <p align="center">
   <img src="structData.png">
