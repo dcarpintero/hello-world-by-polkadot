@@ -12,9 +12,6 @@ import Events from './Events';
 import Interactor from './Interactor';
 import Metadata from './Metadata';
 import NodeInfo from './NodeInfo';
-import TemplateModule from './TemplateModule';
-import Transfer from './Transfer';
-import Upgrade from './Upgrade';
 import MultiSignature from './MultiSignature';
 
 function Main () {
@@ -66,15 +63,11 @@ function Main () {
             <Balances />
           </Grid.Row>
           <Grid.Row>
-            <Transfer accountPair={accountPair} />
-            <Upgrade accountPair={accountPair} />
-          </Grid.Row>
-          <Grid.Row>
-            <Interactor accountPair={accountPair} />
+            <MultiSignature accountPair={accountPair} />
             <Events />
           </Grid.Row>
           <Grid.Row>
-            <MultiSignature accountPair={accountPair} />
+            <Interactor accountPair={accountPair} />
           </Grid.Row>
         </Grid>
       </Container>
