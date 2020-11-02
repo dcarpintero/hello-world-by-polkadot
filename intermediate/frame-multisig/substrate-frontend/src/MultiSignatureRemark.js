@@ -16,33 +16,7 @@ export default function Main (props) {
   return (
     <Grid.Column width={8}>
       <h1>Multisignature Transaction (System.Remark)</h1>
-      <Form>
-        <Form.Field>
-          <Label basic color='teal'>
-            <Icon name='hand point right' />
-            1 Unit = 1000000000000
-          </Label>
-        </Form.Field>
-        <Form.Field>Transfer more than the existential amount for account with 0 balance</Form.Field>
-        <Form.Field>
-          <Input
-            fluid
-            label='To'
-            type='text'
-            placeholder='address'
-            state='addressTo'
-            onChange={onChange}
-          />
-        </Form.Field>
-        <Form.Field>
-          <Input
-            fluid
-            label='Amount'
-            type='number'
-            state='amount'
-            onChange={onChange}
-          />
-        </Form.Field>
+      <Form>          
         <Form.Field>
            <Input
              fluid
@@ -68,6 +42,7 @@ export default function Main (props) {
             fluid
             label='Remark'
             type='text'
+            placeholder='...'
             state='remark'
             onChange={onChange}
           />

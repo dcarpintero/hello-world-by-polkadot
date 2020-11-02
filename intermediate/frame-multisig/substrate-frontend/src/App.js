@@ -12,7 +12,8 @@ import Events from './Events';
 import Interactor from './Interactor';
 import Metadata from './Metadata';
 import NodeInfo from './NodeInfo';
-import MultiSignature from './MultiSignature';
+import MultiSignatureRemark from './MultiSignatureRemark';
+import MultiSignatureTransfer from './MultiSignatureTransfer';
 
 function Main () {
   const [accountAddress, setAccountAddress] = useState(null);
@@ -63,10 +64,11 @@ function Main () {
             <Balances />
           </Grid.Row>
           <Grid.Row>
-            <MultiSignature accountPair={accountPair} />
+            <MultiSignatureRemark accountPair={accountPair} />
             <Events />
           </Grid.Row>
           <Grid.Row>
+            <MultiSignatureTransfer accountPair={accountPair} />
             <Interactor accountPair={accountPair} />
           </Grid.Row>
         </Grid>
