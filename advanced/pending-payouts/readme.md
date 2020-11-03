@@ -6,9 +6,10 @@ Script to calculate pending payouts by sending HTTP requests to a local Sidecar 
 
 ## Getting started 
 
-Install sidecar instance
+Install the project and a sidecar instance
 
 ```
+yarn install
 yarn add @substrate/api-sidecar
 ```
 
