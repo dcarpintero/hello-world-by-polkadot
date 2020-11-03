@@ -18,3 +18,4 @@ Polkadot Hackathon Submissions:
 16. [INTERMEDIATE] Smart contracts - write an ERC-20 smart contract with ink! [submission link](https://github.com/dcarpintero/hello-world-by-polkadot/tree/master/intermediate/erc20-ink)
 17. [INTERMEDIATE] FRAME Development [submission link](https://github.com/dcarpintero/hello-world-by-polkadot/tree/master/intermediate/frame-development)
 18. [INTERMEDIATE] FRAME Multisig [submission link](https://github.com/dcarpintero/hello-world-by-polkadot/tree/master/intermediate/frame-multisig)
+19. [ADVANCED] REST APIs - Read An Account's Pending Payouts [submission link](https://github.com/dcarpintero/hello-world-by-polkadot/tree/master/advanced/pending-payouts)
