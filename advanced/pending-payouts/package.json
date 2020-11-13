@@ -1,0 +1,10 @@
+{
+  "name": "pending-payouts",
+  "version": "1.0.0",
+  "main": "pending-payouts.js",
+  "author": "dcarpintero",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
